@@ -1,0 +1,34 @@
+fun main(args: Array<String>){
+  class Carro {
+  var marca = ""
+  var modelo = ""
+  var ano = 0
+}
+
+// Criar um objeto(instanciar)
+val fuca= Carro()
+
+// Access the properties and add some values to it
+fuca.marca = "Wolks"
+fuca.modelo = "Fusca"
+fuca.ano = 1975
+
+println(fuca.marca)   // Mostra Ford
+println(fuca.modelo)   // Mostra Fusca
+println(fuca.ano)    // Mostra 1969 
+
+
+//instanciar outro carro e imprimir atributos
+
+println("Carro Sea")
+
+val sea= Carro()
+
+sea.marca ="Hyundai"
+sea.modelo ="A1"
+sea.ano = 2011
+
+println(sea.marca)
+println(sea.modelo)
+println(sea.ano)
+}
