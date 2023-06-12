@@ -1,0 +1,37 @@
+//criação Classe Carro cpm marca, modelo e ano
+class Carro{
+  var marca = ""
+  var modelo = ""
+  var ano = 0
+}
+//criando outra classe
+  class Carros(var marca: String, var modelo: String, var ano: Int)
+
+//função principal
+fun main() {
+  
+  //criar uma instância de carro
+  var corola = Carro()
+  var shember = Carros("Hyundai", "Shember", 2012)
+  
+  //atribuir valores
+  corola.marca = "Toyota"
+  corola.modelo = "Corola"
+  corola.ano = 2023
+
+  shember.marca = "Hyundai"
+  shember.modelo = "Shember"
+  shember.ano = 2012
+
+  //imprimir atributos 
+  println(corola.marca)
+  println(corola.modelo)
+  println(corola.ano)
+
+   println(shember.marca)
+   println(shember.modelo)
+   println(shember.ano)
+
+  
+  
+}
